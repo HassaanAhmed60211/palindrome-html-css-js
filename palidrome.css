@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: darkorchid;
+}
+.ans{
+    color: darkorchid;
+
+}
+.val{
+    color: black;
+    
+}
+.row-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.palidrome-cont{
+    color: black;
+    font-family: sans-serif;
+}
+.button {
+    box-shadow: 0px 2px 10px fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+    width: 345px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+
+
+}
+.inputs input{
+  width: 310px;
+  height: 50px; width: 310px;
+  height: 50px;
+  outline: none;
+  padding: 0 17px;
+  font-size: 19px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  transition: 0.1s ease;
+}
+.palidrome-cont{
+    padding: 20px;
+    text-align: start;
+    background-color: #fff;
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 30px fuchsia;
+}
